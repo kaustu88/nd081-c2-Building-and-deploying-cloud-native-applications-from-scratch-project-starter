@@ -10,6 +10,7 @@
         "get",
         "post"
       ]
+      "connection": "mymongodbConnectionstring"
     },
     {
       "type": "http",

@@ -9,6 +9,7 @@
       "methods": [
         "get"
       ]
+      "connection": "mymongodbConnectionstring"
     },
     {
       "type": "http",

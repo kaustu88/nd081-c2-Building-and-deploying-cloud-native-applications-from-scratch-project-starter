@@ -9,6 +9,7 @@
       "methods": [
         "put"
       ]
+      "connection": "mymongodbConnectionstring"
     },
     {
       "type": "http",

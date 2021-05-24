@@ -9,6 +9,7 @@
       "methods": [
         "delete"
       ]
+      "connection": "mymongodbConnectionstring"
     },
     {
       "type": "http",
