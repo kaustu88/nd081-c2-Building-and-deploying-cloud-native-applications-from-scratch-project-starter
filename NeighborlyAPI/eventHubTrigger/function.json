@@ -2,12 +2,19 @@
   "scriptFile": "__init__.py",
   "bindings": [
     {
-      "type": "eventGridTrigger",
-      "name": "event",
+      "authLevel": "Anonymous",
+      "type": "httpTrigger",
       "direction": "in",
-	  "eventHubName": "testhub", 
-	  "connection": "Endpoint=sb://udacityneighborly.servicebus.windows.net/;SharedAccessKeyName=allpolicy;SharedAccessKey=LOxUOkN13xN038T1VoSsmaTt4s7vq/+VCzduS5/nH9A=;EntityPath=testhub"
+      "name": "req",
+      "methods": [
+        "get",
+        "post"
+      ]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "$return"
     }
   ]
 }
-
