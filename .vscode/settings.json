@@ -4,5 +4,6 @@
     "azureFunctions.pythonVenv": ".venv",
     "azureFunctions.projectLanguage": "Python",
     "azureFunctions.projectRuntime": "~3",
-    "debug.internalConsoleOptions": "neverOpen"
+    "debug.internalConsoleOptions": "neverOpen",
+    "python.pythonPath": "C:\\software\\python-3.8.7-embed-amd64\\python.exe"
 }

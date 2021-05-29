@@ -9,7 +9,7 @@
       "methods": [
         "post"
       ],
-      "connection": "mymongodbConnectionstring"
+      "connection": "mymongodbconnectionstring"
     },
     {
       "type": "http",

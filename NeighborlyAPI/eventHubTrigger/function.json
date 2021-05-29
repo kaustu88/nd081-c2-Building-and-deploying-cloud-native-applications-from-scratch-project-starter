@@ -2,20 +2,11 @@
   "scriptFile": "__init__.py",
   "bindings": [
     {
-      "authLevel": "Anonymous",
-      "type": "httpTrigger",
+      "type": "eventGridTrigger",
+      "name": "event",
       "direction": "in",
-      "name": "req",
-      "methods": [
-        "get",
-        "post"
-      ]
-      "connection": "mymongodbConnectionstring"
-    },
-    {
-      "type": "http",
-      "direction": "out",
-      "name": "$return"
+	  "eventHubName": "myeventhubname4568", 
+	  "connection": "Endpoint=sb://myeventhubname4568.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=/FzFqHMmhh7FszUmbDKwWycnHkqi6OoJ7Cx7DAJVGGM="
     }
   ]
 }

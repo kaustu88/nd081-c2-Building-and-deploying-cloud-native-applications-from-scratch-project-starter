@@ -8,8 +8,8 @@
       "name": "req",
       "methods": [
         "delete"
-      ]
-      "connection": "mymongodbConnectionstring"
+      ],
+      "connection": "mymongodbconnectionstring"
     },
     {
       "type": "http",
